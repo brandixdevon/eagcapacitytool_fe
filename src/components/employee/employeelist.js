@@ -94,7 +94,7 @@ function Index() {
       </Tooltip>
       <Tooltip title="Capacity Heatmap">
         <Link to={"/projectview1/" + value}>
-          <Button shape="circle" type="primary" style={{color:"black",backgroundColor:"orangered",borderBlockColor:"orangered"}} icon={<DotChartOutlined />} />
+          <Button shape="circle" type="primary" style={{color:"black",backgroundColor:"orangered",borderColor:"orangered"}} icon={<DotChartOutlined />} />
         </Link>
       </Tooltip>
       </>

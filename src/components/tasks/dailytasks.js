@@ -82,7 +82,6 @@ function Index() {
       dataIndex: 'task_id',
       width: '10%',
       key: 'task_id',
-      render: (val) => ActionButtonStrip(val),
     },
     {
       title: 'Responsible',

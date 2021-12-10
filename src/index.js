@@ -26,6 +26,7 @@ import AddCalendar from './components/calendar/calendaradd';
 import Calendarfullview from './components/calendar/calendarfullview';
 
 //Task Views
+import AddTasks from './components/tasks/addtasks';
 import DailyTasks from './components/tasks/dailytasks';
 
 ReactDOM.render(
@@ -71,6 +72,9 @@ ReactDOM.render(
           </Route>
           <Route path="/calendarfullview">
             <Calendarfullview />
+          </Route>
+          <Route path="/addtask/:id">
+            <AddTasks />
           </Route>
           <Route path="/dailytasks">
             <DailyTasks />
